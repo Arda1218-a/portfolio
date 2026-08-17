@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering & IoT Portfolio | Systems Architecture & Applied Research</title>
+  <meta name="description" content="Portfolio of innovative engineering projects in IoT, Greywater Recycling, Smart Home Mesh, and HealthTech. Engineered with systems thinking and AI-augmented prototyping for MIT admissions.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Core Design System -->
+  <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-brand">
+        <span class="nav-logo-badge">MIT • EECS</span>
+        <span>Systems Engineer</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#projects" data-i18n="nav_projects">Projeler</a></li>
+        <li><a href="#simulations-section" data-i18n="nav_sims">Simülasyon Laboratuvarı</a></li>
+        <li><a href="#certificates" data-i18n="nav_certs">Sertifikalar</a></li>
+        <li><a href="#about" data-i18n="nav_about">Hakkımda & Vizyon</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="lang-toggle-btn" class="btn-lang" title="Dili Değiştir / Switch Language">🇺🇸 EN</button>
+        <button id="theme-toggle-btn" class="btn-icon" title="Temayı Değiştir / Toggle Theme">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <a href="https://github.com" target="_blank" rel="noreferrer" class="btn btn-outline btn-sm">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          <span data-i18n="nav_github">GitHub</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <span>⚡</span>
+          <span>Aspiring MIT Candidate • Systems & IoT Architect</span>
+        </div>
+        <h1 class="hero-title" id="hero-tagline">
+          Sürdürülebilirlik, IoT ve Yapay Zeka Destekli Sistem Mühendisliği Portföyü
+        </h1>
+        <p class="hero-subtitle" id="hero-bio">
+          Gerçek dünya problemlerine donanım mimarisi, nesnelerin interneti (IoT) ve insan-yapay zeka ortaklığı (AI-Augmented Engineering) ile yenilikçi çözümler üreten sistem mühendisi ve araştırmacı.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary" data-i18n="hero_btn_projects">Projeleri İncele ↓</a>
+          <a href="#simulations-section" class="btn btn-outline" data-i18n="hero_btn_sims">Canlı Simülatörler ⚡</a>
+          <a href="#certificates" class="btn btn-outline">Sertifikaları Gör 📜</a>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Strip -->
+      <div class="hero-metrics-strip" id="hero-metrics-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </header>
+
+  <!-- AI-Orchestration & Engineering Philosophy Section -->
+  <section class="philosophy-section">
+    <div class="container">
+      <div class="philosophy-box">
+        <div class="philosophy-header">
+          <span class="philosophy-badge">Mühendislik Metodolojisi</span>
+          <h2 class="philosophy-title" id="philosophy-title">İnsan-Yapay Zeka Ortak Mühendisliği (AI-Augmented Engineering)</h2>
+        </div>
+        <p class="philosophy-text" id="philosophy-desc">
+          Bu portföydeki projeler, modern bir "Sistem Mimarı & Teknik Lider" vizyonuyla geliştirilmiştir. Problem tespiti, donanım seçimi, akış şemaları ve entegrasyon tarafımdan tasarlanmış; arayüz (CSS/UI), kod optimizasyonu ve simülasyon algoritmalarında Yapay Zeka bir hızlandırıcı ve eş-mühendis (pair engineer) olarak yönetilmiştir.
+        </p>
+
+        <div class="philosophy-division-grid">
+          <div class="division-col">
+            <div class="division-title">
+              <span>👤</span>
+              <span>Benim Rolüm: Sistem Mimarı & Problem Çözücü</span>
+            </div>
+            <ul class="division-list">
+              <li>Gerçek dünya problemlerinin tespiti ve mühendislik gereksinimlerinin belirlenmesi</li>
+              <li>Sistem akış şemalarının, sensör yerleşimlerinin ve lojik durum makinelerinin kurgulanması</li>
+              <li>Doğru mikrodenetleyici (ESP32/Arduino) ve donanım bileşenlerinin seçimi</li>
+              <li>AI asistanını yönlendiren prompt ve sistem entegrasyon liderliği</li>
+            </ul>
+          </div>
+
+          <div class="division-col">
+            <div class="division-title">
+              <span>🤖</span>
+              <span>Yapay Zeka Rolü: Kod Üretimi & Hızlandırıcı</span>
+            </div>
+            <ul class="division-list">
+              <li>Arayüz tasarımı, CSS düzenleri ve responsive bileşenlerin kodlanması</li>
+              <li>Karmaşık matematiksel hesaplama ve sensör kalibrasyon algoritmaları</li>
+              <li>Gerçek zamanlı interaktif simülasyon motorunun programlanması</li>
+              <li>Akademik düzeyde dokümantasyon ve teknik rapor şablonlarının oluşturulması</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured 4 Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="projects_tag">Uygulamalı Mühendislik</span>
+        <h2 class="section-title" data-i18n="projects_title">Öne Çıkan Mühendislik Projeleri</h2>
+        <p class="section-subtitle" data-i18n="projects_subtitle">
+          Gerçek dünya problemlerine odaklanan, donanım ve yazılım entegrasyonu tamamlanmış 4 özgün sistem.
+        </p>
+      </div>
+
+      <div class="projects-grid" id="projects-grid-container">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Simulation Laboratory -->
+  <section id="simulations-section" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="sims_tag">İnteraktif Test Ortamı</span>
+        <h2 class="section-title" data-i18n="sims_title">Canlı Simülasyon Laboratuvarı</h2>
+        <p class="section-subtitle" data-i18n="sims_subtitle">
+          Projelerin arka planında çalışan sensör füzyonu, durum makineleri ve algoritmaları doğrudan tarayıcınızda test edin.
+        </p>
+      </div>
+
+      <!-- Simulation Tabs Nav -->
+      <div class="sim-tabs-nav">
+        <button class="sim-tab-btn active" data-tab="water">💧 1. Evsel Su Atık Yönetimi</button>
+        <button class="sim-tab-btn" data-tab="home">🏠 2. Modüler Akıllı Ev Mesh</button>
+        <button class="sim-tab-btn" data-tab="parking">🚗 3. Akıllı Otopark Yönlendirme</button>
+        <button class="sim-tab-btn" data-tab="medication">💊 4. Akıllı İlaç Takip Sistemi</button>
+      </div>
+
+      <!-- Tab Panes -->
+      <div id="sim-tab-water" class="sim-tab-pane active">
+        <div id="sim-water-container"></div>
+      </div>
+      <div id="sim-tab-home" class="sim-tab-pane">
+        <div id="sim-home-container"></div>
+      </div>
+      <div id="sim-tab-parking" class="sim-tab-pane">
+        <div id="sim-parking-container"></div>
+      </div>
+      <div id="sim-tab-medication" class="sim-tab-pane">
+        <div id="sim-medication-container"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="certs_tag">Sürekli Gelişim</span>
+        <h2 class="section-title" data-i18n="certs_title">Sertifikalar & Akademik Başarılar</h2>
+        <p class="section-subtitle" data-i18n="certs_subtitle">
+          Dünyanın önde gelen kurumlarından alınan doğrulanabilir teknik ve akademik yetkinlikler.
+        </p>
+      </div>
+
+      <!-- Filters -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">Tümü (All)</button>
+        <button class="filter-btn" data-filter="cs">Bilgisayar Bilimi (CS)</button>
+        <button class="filter-btn" data-filter="iot">IoT & Gömülü Sistemler</button>
+        <button class="filter-btn" data-filter="ai">Yapay Zeka & ML</button>
+        <button class="filter-btn" data-filter="academic">Akademik & TÜBİTAK</button>
+      </div>
+
+      <div class="certificates-grid" id="certificates-grid-container">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About & MIT Vision Section -->
+  <section id="about" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="about_tag">Mühendislik Vizyonu</span>
+        <h2 class="section-title" data-i18n="about_title">Hakkımda & MIT Hedefi</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Ben, teknolojiyi yalnızca tüketmek yerine; çevre, sağlık ve kentsel verimlilik gibi küresel ölçekteki problemlere somut mühendislik sistemleri geliştiren bir araştırmacıyım.
+          </p>
+          <p>
+            <strong>Neden MIT?</strong> MIT'nin <em>"Mens et Manus" (Mind and Hand / Zihin ve El)</em> felsefesi benim temel çalışma prensibimdir. Teorik bilgiyi fiziksel donanımlarla birleştirip çalışan prototiplere dönüştürmeyi; yapay zeka gibi devrimsel araçları bir mühendislik kaldıracı olarak kullanmayı hedefliyorum.
+          </p>
+          <p>
+            Bu portföyde sunduğum projeler, gelecekte Massachusetts Institute of Technology bünyesinde katılmak istediğim EECS / IoT & Sürdürülebilir Sistemler laboratuvarlarındaki araştırmalarımın ilk adımıdır.
+          </p>
+          <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+            <a href="https://github.com" target="_blank" rel="noreferrer" class="btn btn-primary btn-sm">
+              📂 Tüm GitHub Repolarımı İnceleyin ↗
+            </a>
+            <a href="#projects" class="btn btn-outline btn-sm">
+              🚀 Projelere Dön
+            </a>
+          </div>
+        </div>
+
+        <div class="skills-matrix" id="skills-matrix-container">
+          <!-- Rendered via JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="nav-brand">
+          <span class="nav-logo-badge">MIT • EECS</span>
+          <span>Applied Systems Portfolio</span>
+        </div>
+        <div class="nav-actions">
+          <a href="https://github.com" target="_blank" rel="noreferrer" class="btn-outline btn-sm">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="btn-outline btn-sm">LinkedIn</a>
+          <a href="mailto:contact@mit-portfolio.edu" class="btn btn-primary btn-sm">İletişime Geç ✉️</a>
+        </div>
+      </div>
+      <p class="footer-copy" data-i18n="footer_copy">
+        © 2026 Systems & IoT Engineering Portfolio • Designed for MIT Admissions & Global Impact
+      </p>
+    </div>
+  </footer>
+
+  <!-- Project Deep Dive Modal -->
+  <div id="project-modal" class="modal-overlay">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3 id="modal-project-title" class="modal-title">Proje Detayları</h3>
+        <span id="modal-close" class="modal-close-btn">&times;</span>
+      </div>
+      <div id="modal-project-content" class="modal-body">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/simulations.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+</html>
